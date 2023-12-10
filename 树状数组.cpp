@@ -1,5 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
 int n,a[1000001],ca[1000001],cb[1000001],t;
 int lowbit(int X)
 {
