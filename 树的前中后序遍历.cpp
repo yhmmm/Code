@@ -35,6 +35,6 @@ void hou(int u)
     cout<<u;
 }
 int main(){
-
+	
 	return 0;
 }
