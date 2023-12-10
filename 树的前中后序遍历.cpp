@@ -1,5 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
 struct 
 {
     int l=-1,r=-1;
@@ -33,8 +31,4 @@ void hou(int u)
     hou(tree[u].l);
     hou(tree[u].r);
     cout<<u;
-}
-int main(){
-	
-	return 0;
 }
