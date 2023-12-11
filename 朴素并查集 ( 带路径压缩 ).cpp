@@ -15,7 +15,7 @@ void merge(int a,int b)
 }
 bool judge(int a,int b)
 {
-    return find(a)==find(b);
+	return find(a)==find(b);
 }
 int main(){
 	for(int i=1;i<=n;i++)
