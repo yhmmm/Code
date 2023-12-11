@@ -23,7 +23,7 @@ void merge(int a,int b)
 }
 bool judge(int a,int b)
 {
-    return find(a)==find(b);
+	return find(a)==find(b);
 }
 int main(){
     cin>>n>>m;
@@ -44,6 +44,6 @@ int main(){
 			merge(a[i].u,a[i].v);
 		}
 	}
-    cout<<ans;
+	cout<<ans;
 	return 0;
 }
